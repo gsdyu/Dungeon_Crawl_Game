@@ -58,6 +58,6 @@ class Entity:
         pass
 
     def __str__(self):
-        return(f'{self.get_name()} Stats:\nHP: {self.get_hp()}/{self.get_max_hp()}')
+        return(f'{self.get_name()}\nHP: {self.get_hp()}/{self.get_max_hp()}')
         
     pass

@@ -26,7 +26,7 @@ def main():
     mcount = 0
     h = hero.Hero(name)
     m.reveal(h.get_loc())
-    print("\nInstructions: The following will show your hero's stats and your map. * will be your current location. x are unexplored area that will become discovered once you travel to them. Uncover the mysteries that lies on the many x's of the current floor and find the exit that leads to the next floor. Good Luck!")
+    print("\nInstructions: The following will show your hero's stats and your map. * will be your current location. x are unexplored area that will become discovered once you travel to them. Uncover the mysteries that lies on that x and find the exit that leads to the next floor.")
     while h.get_hp() > 0:
         print()
         print(h)
